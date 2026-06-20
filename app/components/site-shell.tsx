@@ -4,6 +4,7 @@ import { ArrowRight, ExternalLink, PhoneCall } from "lucide-react";
 import { officialContact } from "@/app/lib/site-data";
 import { SiteNav } from "@/app/components/site-nav";
 import { AdminSessionRedirect } from "@/app/components/admin-session-redirect";
+import { assetPath } from "@/app/lib/asset-path";
 
 export function SiteHeader({ mode = "public" }: { mode?: "public" | "admin" }) {
   const isAdmin = mode === "admin";
@@ -15,7 +16,7 @@ export function SiteHeader({ mode = "public" }: { mode?: "public" | "admin" }) {
         <Link href={isAdmin ? "/admin" : "/"} className="flex items-center gap-3">
           <span className="relative size-11 shrink-0 overflow-hidden rounded-full bg-white ring-2 ring-amber-300/70">
             <Image
-              src="/seal-biaknabato.png"
+              src={assetPath("/seal-biaknabato.png")}
               alt="Barangay Biaknabato seal"
               fill
               sizes="44px"

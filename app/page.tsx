@@ -16,6 +16,7 @@ import {
   quickActions,
   sourceNotes,
 } from "@/app/lib/site-data";
+import { assetPath } from "@/app/lib/asset-path";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
       <main className="bg-slate-950">
         <section className="relative min-h-[calc(100vh-4rem)] overflow-hidden bg-slate-950 text-white">
           <Image
-            src="/biaknabato-hero.png"
+            src={assetPath("/biaknabato-hero.png")}
             alt="Illustration of Barangay Biaknabato landscape near Mt. Kanlaon"
             fill
             priority

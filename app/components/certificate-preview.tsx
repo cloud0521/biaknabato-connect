@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { assetPath } from "@/app/lib/asset-path";
 
 export function CertificatePreviewHeader() {
   return (
@@ -6,7 +7,7 @@ export function CertificatePreviewHeader() {
       <div className="grid grid-cols-[88px_1fr_88px] items-center gap-5">
         <div className="relative mx-auto size-20 overflow-hidden rounded-full bg-white">
           <Image
-            src="/seal-biaknabato.png"
+            src={assetPath("/seal-biaknabato.png")}
             alt="Barangay Biaknabato seal"
             fill
             sizes="80px"
@@ -24,7 +25,7 @@ export function CertificatePreviewHeader() {
         </div>
         <div className="relative mx-auto size-20 overflow-hidden rounded-full bg-white">
           <Image
-            src="/seal-lacastellana.png"
+            src={assetPath("/seal-lacastellana.png")}
             alt="Municipality of La Castellana seal"
             fill
             sizes="80px"
