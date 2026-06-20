@@ -1,0 +1,174 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 4082 >>
+stream
+BT /F2 25 Tf 54 738 Td (Biaknabato Connect) Tj ET
+BT /F2 14 Tf 54 707 Td (Overall Site Plan) Tj ET
+BT /F1 10 Tf 54 686 Td (Prepared: June 17, 2026) Tj ET
+BT /F2 15 Tf 54 654 Td (Product Intent) Tj ET
+BT /F1 10.5 Tf 54 635 Td (Biaknabato Connect will be a civic and community connection platform for Barangay Biak-na-Bato. The) Tj ET
+BT /F1 10.5 Tf 54 621 Td (site should help residents quickly find announcements, services, events, local contacts, emergency) Tj ET
+BT /F1 10.5 Tf 54 607 Td (information, and ways to participate in barangay programs.) Tj ET
+BT /F1 10.5 Tf 54 588 Td (The first version should feel trustworthy, practical, and easy to scan. It should work well on) Tj ET
+BT /F1 10.5 Tf 54 574 Td (mobile, since many residents will likely visit from a phone.) Tj ET
+BT /F2 15 Tf 54 547 Td (Primary Audiences) Tj ET
+BT /F1 10.3 Tf 54 528 Td (-) Tj ET
+BT /F1 10.3 Tf 72 528 Td (Residents who need barangay announcements, schedules, forms, and contact information.) Tj ET
+BT /F1 10.3 Tf 54 511 Td (-) Tj ET
+BT /F1 10.3 Tf 72 511 Td (Barangay officials and staff who need a clear place to publish updates and service guidance.) Tj ET
+BT /F1 10.3 Tf 54 494 Td (-) Tj ET
+BT /F1 10.3 Tf 72 494 Td (Community groups, youth leaders, volunteers, and local partners coordinating activities.) Tj ET
+BT /F1 10.3 Tf 54 477 Td (-) Tj ET
+BT /F1 10.3 Tf 72 477 Td (New residents or visitors who need orientation, directions, and essential local information.) Tj ET
+BT /F2 15 Tf 54 452 Td (Experience Principles) Tj ET
+BT /F1 10.3 Tf 54 433 Td (-) Tj ET
+BT /F1 10.3 Tf 72 433 Td (Mobile-first: key information should be reachable within one or two taps.) Tj ET
+BT /F1 10.3 Tf 54 416 Td (-) Tj ET
+BT /F1 10.3 Tf 72 416 Td (Clear and official: use direct language, visible dates, and recognizable barangay identity.) Tj ET
+BT /F1 10.3 Tf 54 399 Td (-) Tj ET
+BT /F1 10.3 Tf 72 399 Td (Action-oriented: every page should answer what can be done next.) Tj ET
+BT /F1 10.3 Tf 54 382 Td (-) Tj ET
+BT /F1 10.3 Tf 72 382 Td (Accessible: readable contrast, simple navigation, and text that works for older residents.) Tj ET
+BT /F1 10.3 Tf 54 365 Td (-) Tj ET
+BT /F1 10.3 Tf 72 365 Td (Maintainable: content sections should be organized so future admin tools can be added cleanly.) Tj ET
+BT /F2 15 Tf 54 340 Td (First-Version Site Map) Tj ET
+BT /F1 10.3 Tf 54 321 Td (-) Tj ET
+BT /F1 10.3 Tf 72 321 Td (Home: featured alert, quick links, latest announcements, upcoming activities, and a short) Tj ET
+BT /F1 10.3 Tf 72 307 Td (introduction.) Tj ET
+BT /F1 10.3 Tf 54 290 Td (-) Tj ET
+BT /F1 10.3 Tf 72 290 Td (Announcements: public notices, advisories, project updates, schedules, category filters, and) Tj ET
+BT /F1 10.3 Tf 72 276 Td (detail pages.) Tj ET
+BT /F1 10.3 Tf 54 259 Td (-) Tj ET
+BT /F1 10.3 Tf 72 259 Td (Services: clearance, certificates, IDs, complaint guidance, requirements, office hours, fees, and) Tj ET
+BT /F1 10.3 Tf 72 245 Td (contacts.) Tj ET
+BT /F1 10.3 Tf 54 228 Td (-) Tj ET
+BT /F1 10.3 Tf 72 228 Td (Events and Programs: calendar-style activities and program pages for youth, seniors, health,) Tj ET
+BT /F1 10.3 Tf 72 214 Td (livelihood, disaster preparedness, and cleanups.) Tj ET
+BT /F1 10.3 Tf 54 197 Td (-) Tj ET
+BT /F1 10.3 Tf 72 197 Td (Directory: barangay office contacts, officials, emergency hotlines, and community resources.) Tj ET
+BT /F1 10.3 Tf 54 180 Td (-) Tj ET
+BT /F1 10.3 Tf 72 180 Td (About: barangay profile, mission, vision, location, basic history, and landmarks.) Tj ET
+BT /F1 10.3 Tf 54 163 Td (-) Tj ET
+BT /F1 10.3 Tf 72 163 Td (Contact / Report a Concern: contact form, concern type selector, office details, and emergency) Tj ET
+BT /F1 10.3 Tf 72 149 Td (guidance.) Tj ET
+BT /F2 15 Tf 54 124 Td (Core Features) Tj ET
+BT /F1 10.3 Tf 54 105 Td (-) Tj ET
+BT /F1 10.3 Tf 72 105 Td (Responsive public website built with Next.js App Router.) Tj ET
+BT /F1 10.3 Tf 54 88 Td (-) Tj ET
+BT /F1 10.3 Tf 72 88 Td (Homepage dashboard of community information.) Tj ET
+BT /F1 8 Tf 54 32 Td (Biaknabato Connect Site Plan) Tj ET BT /F1 8 Tf 516 32 Td (Page 1) Tj ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4102 >>
+stream
+BT /F1 10.3 Tf 54 738 Td (-) Tj ET
+BT /F1 10.3 Tf 72 738 Td (Announcement cards with categories and dates.) Tj ET
+BT /F1 10.3 Tf 54 721 Td (-) Tj ET
+BT /F1 10.3 Tf 72 721 Td (Service guide pages with step-by-step requirements.) Tj ET
+BT /F1 10.3 Tf 54 704 Td (-) Tj ET
+BT /F1 10.3 Tf 72 704 Td (Events/program list with upcoming and completed status.) Tj ET
+BT /F1 10.3 Tf 54 687 Td (-) Tj ET
+BT /F1 10.3 Tf 72 687 Td (Emergency and office contact directory.) Tj ET
+BT /F1 10.3 Tf 54 670 Td (-) Tj ET
+BT /F1 10.3 Tf 72 670 Td (Contact/report form UI prepared for future backend integration.) Tj ET
+BT /F1 10.3 Tf 54 653 Td (-) Tj ET
+BT /F1 10.3 Tf 72 653 Td (Search-ready content structure for announcements and services.) Tj ET
+BT /F2 15 Tf 54 628 Td (Suggested Content Model) Tj ET
+BT /F1 10.5 Tf 54 609 Td (Announcement: id, title, slug, category, date, summary, body, pinned, attachments.) Tj ET
+BT /F1 10.5 Tf 54 590 Td (Service: id, title, slug, description, requirements, steps, fees, processing time, office hours,) Tj ET
+BT /F1 10.5 Tf 54 576 Td (contact.) Tj ET
+BT /F1 10.5 Tf 54 557 Td (Event: id, title, date, location, category, summary, status, organizer.) Tj ET
+BT /F1 10.5 Tf 54 538 Td (Directory Entry: id, name, role or service, phone, email, office hours, priority.) Tj ET
+BT /F1 10.5 Tf 54 519 Td (Concern Report: reporter name, contact, concern type, location, message, submitted at, status.) Tj ET
+BT /F2 15 Tf 54 492 Td (Visual Direction) Tj ET
+BT /F1 10.5 Tf 54 473 Td (The design should be civic, warm, and clear rather than decorative. Use a restrained palette) Tj ET
+BT /F1 10.5 Tf 54 459 Td (inspired by official community materials: deep green or blue for trust, a bright accent for actions,) Tj ET
+BT /F1 10.5 Tf 54 445 Td (clean white surfaces, and high-contrast text.) Tj ET
+BT /F1 10.5 Tf 54 426 Td (The homepage should immediately show Biaknabato Connect as the main first-viewport signal. Use real) Tj ET
+BT /F1 10.5 Tf 54 412 Td (place imagery later if available; for the first build, use clean graphic structure and local) Tj ET
+BT /F1 10.5 Tf 54 398 Td (identity cues without pretending to have official photos.) Tj ET
+BT /F2 15 Tf 54 371 Td (Technical Plan) Tj ET
+BT /F1 10.3 Tf 54 352 Td (-) Tj ET
+BT /F1 10.3 Tf 72 352 Td (Use the existing Next.js 16 App Router project.) Tj ET
+BT /F1 10.3 Tf 54 335 Td (-) Tj ET
+BT /F1 10.3 Tf 72 335 Td (Keep initial pages as Server Components unless interactivity is required.) Tj ET
+BT /F1 10.3 Tf 54 318 Td (-) Tj ET
+BT /F1 10.3 Tf 72 318 Td (Use Tailwind CSS 4 already included in the project.) Tj ET
+BT /F1 10.3 Tf 54 301 Td (-) Tj ET
+BT /F1 10.3 Tf 72 301 Td (Build static content from local TypeScript arrays first.) Tj ET
+BT /F1 10.3 Tf 54 284 Td (-) Tj ET
+BT /F1 10.3 Tf 72 284 Td (Organize reusable data in app/lib or a top-level lib directory.) Tj ET
+BT /F1 10.3 Tf 54 267 Td (-) Tj ET
+BT /F1 10.3 Tf 72 267 Td (Add client components only for interactive filters, search, tabs, or forms.) Tj ET
+BT /F1 10.3 Tf 54 250 Td (-) Tj ET
+BT /F1 10.3 Tf 72 250 Td (Prepare route structure so a future database/admin dashboard can plug in cleanly.) Tj ET
+BT /F2 15 Tf 54 225 Td (Build Phases) Tj ET
+BT /F1 10.5 Tf 54 206 Td (Phase 1: Public Site Foundation - replace the default Next page, build layout, navigation, footer,) Tj ET
+BT /F1 10.5 Tf 54 192 Td (homepage, starter content, and contact/report UI.) Tj ET
+BT /F1 10.5 Tf 54 173 Td (Phase 2: Content Depth - add detail pages, filters, search, printable service requirement views, and) Tj ET
+BT /F1 10.5 Tf 54 159 Td (stronger local visuals once assets are available.) Tj ET
+BT /F1 10.5 Tf 54 140 Td (Phase 3: Backend and Admin - add staff authentication, database-backed content, admin publishing,) Tj ET
+BT /F1 10.5 Tf 54 126 Td (and concern status tracking.) Tj ET
+BT /F1 10.5 Tf 54 107 Td (Phase 4: Community Features - add notifications, request tracking, event registration, volunteer) Tj ET
+BT /F1 10.5 Tf 54 93 Td (signups, and multilingual support if needed.) Tj ET
+BT /F1 8 Tf 54 32 Td (Biaknabato Connect Site Plan) Tj ET BT /F1 8 Tf 516 32 Td (Page 2) Tj ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 884 >>
+stream
+BT /F2 15 Tf 54 734 Td (Immediate Next Steps) Tj ET
+BT /F1 10.3 Tf 54 715 Td (-) Tj ET
+BT /F1 10.3 Tf 72 715 Td (Confirm official barangay name styling, logo availability, and preferred colors.) Tj ET
+BT /F1 10.3 Tf 54 698 Td (-) Tj ET
+BT /F1 10.3 Tf 72 698 Td (Decide which first-version pages are required for launch.) Tj ET
+BT /F1 10.3 Tf 54 681 Td (-) Tj ET
+BT /F1 10.3 Tf 72 681 Td (Collect starter content: officials, hotlines, office hours, services, and three to five) Tj ET
+BT /F1 10.3 Tf 72 667 Td (announcements.) Tj ET
+BT /F1 10.3 Tf 54 650 Td (-) Tj ET
+BT /F1 10.3 Tf 72 650 Td (Build the public site foundation in the existing Next.js app.) Tj ET
+BT /F1 10.3 Tf 54 633 Td (-) Tj ET
+BT /F1 10.3 Tf 72 633 Td (Review on mobile and desktop before adding backend features.) Tj ET
+BT /F1 8 Tf 54 32 Td (Biaknabato Connect Site Plan) Tj ET BT /F1 8 Tf 516 32 Td (Page 3) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 9 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R] /Count 3 >>
+endobj
+10 0 obj
+<< /Type /Catalog /Pages 9 0 R >>
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000000154 00000 n 
+0000004288 00000 n 
+0000004424 00000 n 
+0000008578 00000 n 
+0000008714 00000 n 
+0000009649 00000 n 
+0000009785 00000 n 
+0000009854 00000 n 
+trailer
+<< /Size 11 /Root 10 0 R >>
+startxref
+9904
+%%EOF
