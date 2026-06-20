@@ -21,6 +21,24 @@ npm run dev
 
 Open `http://127.0.0.1:3000`.
 
+## GitHub Pages
+
+This repository publishes a static portfolio build through GitHub Actions.
+
+Portfolio URL:
+
+```text
+https://cloud0521.github.io/biaknabato-connect/
+```
+
+The workflow in `.github/workflows/pages.yml` builds with:
+
+```bash
+NEXT_PUBLIC_BASE_PATH=/biaknabato-connect npm run build
+```
+
+and deploys the generated `out` folder to GitHub Pages.
+
 ## Admin Access
 
 Admin route:
@@ -61,3 +79,4 @@ docs/biaknabato-connect-site-plan.md
 - Replace placeholder Punong Barangay name in certificate previews when official details are provided.
 - Add database persistence before accepting live resident submissions.
 - Add production-grade authentication before public admin deployment.
+- GitHub Pages uses static hosting, so admin login is a browser-only portfolio demo in this build.

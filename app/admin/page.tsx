@@ -1,19 +1,15 @@
 import type { Metadata } from "next";
-import { LogOut } from "lucide-react";
-import { logoutAdmin } from "@/app/admin/actions";
 import { SiteHeader } from "@/app/components/site-shell";
 import { AdminDashboard } from "@/app/admin/admin-dashboard";
-import { requireAdminSession } from "@/app/lib/admin-auth";
+import { AdminLogoutButton, AdminShell } from "@/app/admin/admin-shell";
 
 export const metadata: Metadata = {
   title: "Admin",
 };
 
-export default async function AdminPage() {
-  await requireAdminSession();
-
+export default function AdminPage() {
   return (
-    <>
+    <AdminShell>
       <SiteHeader mode="admin" />
       <main>
         <section className="border-b border-white/10 bg-slate-950 text-white">
@@ -31,19 +27,11 @@ export default async function AdminPage() {
                 real database and authentication layer are added.
               </p>
             </div>
-            <form action={logoutAdmin}>
-              <button
-                type="submit"
-                className="inline-flex w-fit items-center gap-2 rounded-md border border-white/15 px-4 py-3 text-sm font-semibold text-white transition hover:bg-white/10"
-              >
-                <LogOut size={16} aria-hidden="true" />
-                Log out
-              </button>
-            </form>
+            <AdminLogoutButton />
           </div>
         </section>
         <AdminDashboard />
       </main>
-    </>
+    </AdminShell>
   );
 }

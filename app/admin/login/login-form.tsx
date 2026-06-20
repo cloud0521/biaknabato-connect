@@ -1,18 +1,37 @@
 "use client";
 
-import { useActionState } from "react";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { LockKeyhole } from "lucide-react";
-import { loginAdmin, type LoginState } from "@/app/admin/actions";
 
-const initialState: LoginState = {
-  message: "",
-};
+const demoAdminPasscode = "biaknabato-admin";
+const adminSessionKey = "biaknabato_admin_session";
 
 export function LoginForm() {
-  const [state, formAction, pending] = useActionState(loginAdmin, initialState);
+  const router = useRouter();
+  const [message, setMessage] = useState("");
+  const [pending, setPending] = useState(false);
 
   return (
-    <form action={formAction} className="mt-8 grid gap-5">
+    <form
+      className="mt-8 grid gap-5"
+      onSubmit={(event) => {
+        event.preventDefault();
+        setPending(true);
+
+        const formData = new FormData(event.currentTarget);
+        const passcode = String(formData.get("passcode") ?? "");
+
+        if (passcode !== demoAdminPasscode) {
+          setMessage("Invalid admin passcode.");
+          setPending(false);
+          return;
+        }
+
+        window.localStorage.setItem(adminSessionKey, "active");
+        router.push("/admin");
+      }}
+    >
       <label className="grid gap-2 text-sm font-semibold text-slate-200">
         Admin passcode
         <input
@@ -23,9 +42,9 @@ export function LoginForm() {
           placeholder="Enter admin passcode"
         />
       </label>
-      {state.message ? (
+      {message ? (
         <p className="rounded-md border border-red-400/30 bg-red-400/10 px-3 py-2 text-sm text-red-100">
-          {state.message}
+          {message}
         </p>
       ) : null}
       <button
@@ -39,4 +58,3 @@ export function LoginForm() {
     </form>
   );
 }
-

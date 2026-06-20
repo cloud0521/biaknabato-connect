@@ -34,12 +34,11 @@ export default function AdminLoginPage() {
           </p>
           <LoginForm />
           <p className="mt-5 text-xs leading-5 text-slate-500">
-            Local default passcode: biaknabato-admin. Set ADMIN_PASSCODE in
-            `.env.local` before sharing this outside your machine.
+            Portfolio demo passcode: biaknabato-admin. This static GitHub Pages
+            build uses browser-only demo access.
           </p>
         </section>
       </div>
     </main>
   );
 }
-

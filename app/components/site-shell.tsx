@@ -3,12 +3,14 @@ import Link from "next/link";
 import { ArrowRight, ExternalLink, PhoneCall } from "lucide-react";
 import { officialContact } from "@/app/lib/site-data";
 import { SiteNav } from "@/app/components/site-nav";
+import { AdminSessionRedirect } from "@/app/components/admin-session-redirect";
 
 export function SiteHeader({ mode = "public" }: { mode?: "public" | "admin" }) {
   const isAdmin = mode === "admin";
 
   return (
     <header className="sticky top-0 z-40 border-b border-white/10 bg-slate-950/95 text-white backdrop-blur">
+      {isAdmin ? null : <AdminSessionRedirect />}
       <div className="mx-auto flex min-h-16 max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <Link href={isAdmin ? "/admin" : "/"} className="flex items-center gap-3">
           <span className="relative size-11 shrink-0 overflow-hidden rounded-full bg-white ring-2 ring-amber-300/70">
